@@ -11,9 +11,9 @@ Visit this article to get more information and detailed instructions: [#Raspberr
 ## Instructions
 You can read [this article](https://lemariva.com/blog/2019/02/raspberry-pi-cups-printer-server-using-docker) for detailed instructions, if you don't want to, you only need to type the following on a Raspberry Pi terminal:
 ```shell
-$ wget https://raw.githubusercontent.com/matheous4/wifi-cups-server/master/rpi-cup-server.sh
-$ chmod +x rpi-cup-server.sh
-$ ./rpi-cup-server.sh
+wget https://raw.githubusercontent.com/matheous4/wifi-cups-server/master/rpi-cup-server.sh
+chmod +x rpi-cup-server.sh
+./rpi-cup-server.sh
 ```
  The bash file asks you for a SSID and a PASSWORD. These values are for the AP (access-point). Choose them correctly: it should not be your/neighbor network SSID, and the PASSWORD should be secure. After this, the bash file starts to install everything automatically (grab a cup of tea!).
  Then follows [these instructions](https://lemariva.com/blog/2019/02/raspberry-pi-cups-printer-server-using-docker#how-to-use-the-rpi-cups-server-370867).
