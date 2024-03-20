@@ -41,7 +41,7 @@ echo "pulling Docker images..."
 sudo docker pull portainer/portainer
 sudo docker pull lemariva/iotwifi
 sudo docker pull txn2/asws:armhf-1.2.3
-sudo docker pull matheous4/rpi-cups:latest
+sudo docker pull matheous4/rpi-cups
 
 # wificfg_configuration
 echo "downloading configurations and updating ssid/password"
