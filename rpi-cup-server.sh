@@ -39,13 +39,13 @@ sudo usermod -aG docker pi
 # pulling docker images
 echo "pulling Docker images..."
 sudo docker pull portainer/portainer
-sudo docker pull lemariva/iotwifi
+sudo docker pull matheous4/iotwifi
 sudo docker pull txn2/asws:armhf-1.2.3
 sudo docker pull matheous4/rpi-cups
 
 # wificfg_configuration
 echo "downloading configurations and updating ssid/password"
-wget https://raw.githubusercontent.com/lemariva/txwifi/master/cfg/wificfg.json
+wget https://raw.githubusercontent.com/matheous4/txwifi/master/cfg/wificfg.json
 sed -i 's/iot-wifi-cfg-3/'"$SSID"'/' wificfg.json
 sed -i 's/iotwifipass/'"$PASSWORD"'/' wificfg.json
 unset PASSWORD
