@@ -52,7 +52,7 @@ unset PASSWORD
 unset SSID
 
 echo "Downloading www files..."
-git clone https://github.com/lemariva/wifi-cups-server.git
+git clone https://github.com/Matheous4/wifi-cups-server.git
 mv wifi-cups-server/iot-website $(pwd)/www
 
 echo "starting to run the Containers..."
