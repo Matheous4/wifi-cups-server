@@ -39,7 +39,7 @@ sudo usermod -aG docker pi
 # pulling docker images
 echo "pulling Docker images..."
 sudo docker pull portainer/portainer
-sudo docker pull matheous4/iotwifi
+sudo docker pull lemariva/iotwifi
 sudo docker pull txn2/asws:armhf-1.2.3
 sudo docker pull gfjardim/cups:latest
 
