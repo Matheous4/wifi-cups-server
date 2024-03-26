@@ -45,7 +45,7 @@ sudo docker pull gfjardim/cups:latest
 
 # wificfg_configuration
 echo "downloading configurations and updating ssid/password"
-wget https://raw.githubusercontent.com/matheous4/txwifi/master/cfg/wificfg.json
+wget https://raw.githubusercontent.com/lemariva/txwifi/master/cfg/wificfg.json
 sed -i 's/iot-wifi-cfg-3/'"$SSID"'/' wificfg.json
 sed -i 's/iotwifipass/'"$PASSWORD"'/' wificfg.json
 unset PASSWORD
